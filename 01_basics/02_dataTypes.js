@@ -15,5 +15,5 @@ let isLoggedIn= false
 //undefined=> 
 //symbol => unique
 //object
-console.log(typeof null)// object
+console.log(typeof null)// output object
 console.log(typeof undefined) // undefined
