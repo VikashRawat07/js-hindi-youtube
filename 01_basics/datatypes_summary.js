@@ -28,3 +28,18 @@ console.log(scoreValue)
 console.log(myFunction)
 console.log(heroes)
 console.log(anotherId)
+//Stack(Primitive) Heap (Non Primitive)
+let myYoutubename= "vikashdotcom"
+let anothername= myYoutubename
+anothername= "vikash"
+console.log(myYoutubename)
+console.log(anothername)
+let userOne= {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo= userOne
+userTwo.email = "vikash@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)
+
